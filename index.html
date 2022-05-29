@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motion Website</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <style>
+    .banner,.products-img{
+      display: block;
+      width: 100%;
+    }
+    .products{
+      padding: 20px 0;
+      background: #f6f6f6;
+    }
+    .about{
+      position: relative;
+    }
+    .about img{
+      display: block;
+      width: 100%;
+    }
+    .about button{
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      margin-left: -60px;
+      width: 120px;
+      height: 34px;
+      line-height: 34px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #232323;
+      background: #fff;
+    }
+    .news{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding:  30px 0;
+      color: #248E34;
+    }
+    .news h1{
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .news h2{
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="./images/logo.png" class="logo" />
+    <ul class="menu">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="bussiness.html">Business Contacts</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+    </ul>
+    <button class="sign-in">Sign In/Sign Up</button>
+  </div>
+  
+  <img src="./images/coverpage.png" class="banner" />
+  <div class="products">
+    <img src="./images/products.png" class="products-img" />
+  </div>
+  <a href="about.html" class="about">
+    <img src="./images/aboutcover.jpg" />
+    <button>Learn more</button>
+  </a>
+
+  <div class="news">
+    <h1> NEWS</h1>
+    <h2>FIND US HERE</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99198.87936809001!2d-9.13012140688213!3d53.28502446938928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b93955a2d5bff%3A0x32b1b440a495281!2z5oiI5bCU6Z-m!5e0!3m2!1szh-CN!2sie!4v1653503875032!5m2!1szh-CN!2sie"
+        width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" width="900" height="500" style="border:0;" allowfullscreen=""
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <div class="footer">
+    <h1 class="footer-title">Contact Us</h1>
+    <div class="footer-content">
+      <div class="footer-menus">
+        <div class="item">
+          <p class="label">Phone</p>
+          <p class="value">(091) 1234567</p>
+        </div>
+        <div class="item">
+          <p class="label">Address</p>
+          <p class="value">2 College Road, Galway, Ireland. H91AB10.</p>
+        </div>
+        <div class="item">
+          <p class="label">Email</p>
+          <p class="value">info@motion.ie</p>
+        </div>
+        <a href="contact.html" button class="btn">Contact Form</a>
+      </div>
+
+      <div class="footer-menus">
+        <div class="item">
+          <p class="label">Phone</p>
+          <p class="value">(091) 1234567</p>
+        </div>
+        <div class="item">
+          <p class="label">Address</p>
+          <p class="value">2 College Road, Galway, Ireland. H91AB10.</p>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://www.facebook.com/">
+          <img src="./images/share_facebook.png" />
+          facebook
+        </a>
+        <a href="https://www.twitter.com">
+          <img src="./images/share_twitter.png" />
+          twitter
+        </a>
+        <a href="https://www.instagram.com/">
+          <img src="./images/share_ins.png" />
+          instagram
+        </a>
+        <a href="https://www.linkedin.com">
+          <img src="./images/share_linkedin.png" />
+          linkedin
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
