@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border: 0;
+  cursor: pointer;
+}
+
+body{
+  padding-top: 60px;
+}
+header{
+  height: 60px;
+  position: cente;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  padding: 0 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo{
+  height: 36px;
+}
+.header .menu{
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.header .menu li{
+  height: 100%;
+  margin: 0 30px;
+}
+.header .menu a{
+  display: block;
+  height: 100%;
+  border-bottom: 2px solid transparent;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+}
+.header .menu a:hover{
+  color: lightblue;
+}
+.header .menu .active a{
+  color: lightblue;
+  border-color: lightblue;
+}
+.header .sign-in{
+  width: 120px;
+  height: 34px;
+  font-style: normal;
+  margin-top: 1px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height: 34px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #232323;
+  background: green;
+}
